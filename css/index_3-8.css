@@ -1,0 +1,19 @@
+.frame {
+
+position: relative;
+width: 1355px;
+height: 1909px;
+
+background: #975656;
+
+}
+
+/* Text */
+
+position: absolute;
+width: 768px;
+height: 115px;
+left: 56px;
+top: 45px;
+
+
