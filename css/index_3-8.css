@@ -1,15 +1,8 @@
-.frame {
 
-position: relative;
-width: 1355px;
-height: 1909px;
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700&display=swap');
 
-background: #975656;
-
+* {
+    box-sizing:border-box;
+    width:100%;
+    background-color:#FFFFFF;
 }
-
-p {
-    color:green;
-    font-size:2em;
-}
-
