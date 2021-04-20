@@ -11,10 +11,14 @@ h1 {
     font-size:2.5em;
     color:#C8AADA;
     font-family: 'Spartan', sans-serif;
+    font-weight:600;
+    letter-spacing:1em;
 }
 
 h2 {
     font-size:2em;
     color:#C8AADA;
     font-family: 'Spartan', sans-serif;
+    font-weight:500;
+    letter-spacing: 1em;
 }
