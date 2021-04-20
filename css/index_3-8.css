@@ -10,7 +10,7 @@
 }
 
 h1 {
-    font-size:2.5em;
+    font-size:2.8em;
     color:#C8AADA;
     font-family: 'Spartan', sans-serif;
     font-weight:600;
@@ -21,26 +21,26 @@ h2 {
     font-size:2em;
     color:#C8AADA;
     font-family: 'Spartan', sans-serif;
-    font-weight:500;
+    font-weight:600;
     letter-spacing: .3em;
 }
 
 h3 {
-    font-size:1.4em;
+    font-size:1.6em;
     color:#F1D692;
     font-family: 'Spartan', sans-serif;
-    font-weight:400;
-    letter-spacing: .07em;
+    font-weight:500;
+    letter-spacing: .12em;
 }
 
 h4 {
-    font-size:45px;
+    font-size:35px;
     color:#000000;
     font-family: 'Maitree', serif;
 }
 
 p {
-    font-size:30px;
+    font-size:20px;
     color:#6D696F;
     font-family: 'Maitree', serif;
 }
