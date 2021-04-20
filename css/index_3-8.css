@@ -33,7 +33,14 @@ h3 {
     letter-spacing: .07em;
 }
 
+h4 {
+    font-size:45px;
+    color:#000000;
+    font-family: 'Maitree', serif;
+}
+
 p {
     font-size:30px;
+    color:#6D696F;
     font-family: 'Maitree', serif;
 }
