@@ -44,3 +44,30 @@ p {
     color:#6D696F;
     font-family: 'Maitree', serif;
 }
+
+
+.color_bar {
+    width:120px;
+    height:80px;
+}
+
+.one {
+    background-color:#C8AADA;
+}
+
+.two{
+    background-color:#F1D692;
+}
+
+.three{
+    background-color:#FFFFFF;
+    border:1px solid #000000;
+}
+
+.four {
+    background-color:#000000;
+}
+
+.five {
+    background-color:#6D696F;
+}
