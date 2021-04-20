@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500&display=swap');
 
@@ -9,44 +8,62 @@
     background-color:#FFFFFF;
 }
 
-.headers {
-    text-align: center;
+.intro {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
 }
 
+.line {
+    width:1200px;
+    height:2px;
+    background-color:#000000;
+
+}
+
+.headers {
+    text-align: center;    
+    margin-top:70px;
+}
+
+
 h1 {
-    font-size:2.8em;
+    font-size:4em;
     color:#C8AADA;
     font-family: 'Spartan', sans-serif;
     font-weight:600;
-    letter-spacing:.75em;
+    letter-spacing:.5em;
 }
 
 h2 {
-    font-size:2em;
+    font-size:3em;
     color:#C8AADA;
     font-family: 'Spartan', sans-serif;
     font-weight:600;
-    letter-spacing: .3em;
+    letter-spacing: .25em;
 }
 
 h3 {
-    font-size:1.6em;
+    font-size:2.15em;
     color:#F1D692;
     font-family: 'Spartan', sans-serif;
     font-weight:500;
-    letter-spacing: .12em;
+    letter-spacing: .15em;
 }
 
 h4 {
-    font-size:20px;
+    font-size:1.5em;
     color:#000000;
     font-family: 'Maitree', serif;
+    font-weight:400;
 }
 
 p {
-    font-size:15px;
+    font-size:1.25em;
     color:#6D696F;
     font-family: 'Maitree', serif;
+    font-weight:400;
 }
 
 .colors {
@@ -58,8 +75,8 @@ p {
 
 
 .color_bar {
-    width:250px;
-    height:80px;
+    width:300px;
+    height:100px;
 }
 
 .one {
@@ -72,7 +89,8 @@ p {
 
 .three{
     background-color:#FFFFFF;
-    border:1px solid #000000;
+    border-top:1px solid #000000;
+    border-bottom:1px solid #000000;
 }
 
 .four {
