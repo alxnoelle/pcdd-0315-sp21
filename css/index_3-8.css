@@ -9,6 +9,10 @@
     background-color:#FFFFFF;
 }
 
+.headers {
+    text-align: center;
+}
+
 h1 {
     font-size:2.8em;
     color:#C8AADA;
@@ -44,6 +48,13 @@ p {
     color:#6D696F;
     font-family: 'Maitree', serif;
 }
+
+.colors {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 
 
 .color_bar {
