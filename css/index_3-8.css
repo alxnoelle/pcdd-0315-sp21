@@ -22,3 +22,11 @@ h2 {
     font-weight:500;
     letter-spacing: 1em;
 }
+
+h3 {
+    font-size:1.4em;
+    color:#C8AADA;
+    font-family: 'Spartan', sans-serif;
+    font-weight:400;
+    letter-spacing: 1em;
+}
