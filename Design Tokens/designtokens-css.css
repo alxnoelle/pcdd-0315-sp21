@@ -1,0 +1,75 @@
+/* colors */
+:root {
+    --new-color: #c8aada;
+    --new-color: #ab8dbd;
+    --new-color: #c7becc;
+    --new-color: #e6e3e8;
+    --new-color: #f1d692;
+    --new-color: #ffffff;
+    --new-color: #000000;
+    --new-color: #6d696f;
+  }
+  /* fonts */
+  :root {        
+  --default-font: Spartan;
+  --spartan-500: Spartan;
+  --spartan-regular: Spartan;
+  --maitree-500: Maitree;
+  --maitree-regular: Maitree;
+  }
+  /* text styles*/
+  .display-1 {
+    font-family : var(--default-font);
+    font-size : 48px;
+    line-height: 57px;
+    letter-spacing : 0.4em;
+  }
+  .display-2 {
+    font-family : var(--default-font);
+    font-size : 40px;
+    line-height: 48px;
+    letter-spacing : 0.3em;
+  }
+  .h-3 {
+    font-family : var(--default-font);
+    font-size : 28px;
+    line-height: 35px;
+    letter-spacing : 0.26em;
+  }
+  .h-4 {
+    font-family : var(--maitree-500);
+    font-size : 19px;
+    line-height: 25px;
+    letter-spacing : 0.1em;
+  }
+  .body {
+    font-family : var(--maitree-regular);
+    font-size : 16px;
+    line-height: 22px;
+    letter-spacing : 0.1em;
+  }
+  .button {
+    font-family : var(--spartan-regular);
+    font-size : 13px;
+    line-height: 18px;
+    letter-spacing : 0.1em;
+  }
+  /* SpacePatterns */
+  :root {
+    --none: 0px;
+    --xx-small: 2px;
+    --x-small: 4px;
+    --small: 8px;
+    --regular: 16px;
+    --large: 32px;
+    --x-large: 64px;
+    --xx-large: 128px;
+  }
+  /* Icons */
+  :root {
+    --new-icon: [object Object];
+    --new-icon: [object Object];
+    --new-icon: [object Object];
+    --new-icon: [object Object];
+  }
+  
