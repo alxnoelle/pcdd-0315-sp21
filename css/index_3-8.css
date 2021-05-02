@@ -9,22 +9,61 @@
 }
 
 .intro {
+    width:100%;
+    font-family: 'Maitree', serif;
+    font-size:2.3em;
+    font-weight:500;
+    letter-spacing:.4em;
+    background-color:#C8AADA;
+    color:#FFFFFF;
+    height:200px;
+    text-align: center;
+    padding-top:95px;
+}
+
+.intro-line {
+    width:100%;
+    height:8px;
+    background-color: #F1D692;
+}
+
+p.desktop {
+    font-family:'Spartan', sans-serif;
+    font-size:.6em;
+    letter-spacing:0.2em;
+    background-color:#C8AADA;
+    margin-top:10px;
+}
+
+.row {
     display:flex;
-    flex-direction:column;
-    align-items:center;
-    text-align:center;
+    flex-direction: row;
+    width:100%;
+    align-items:flex-start;
+    margin-top:75px;
+}
+.section-title{
+    font-family: 'Maitree', serif;
+    font-size:1em;
+    font-weight:450;
+    letter-spacing:.1em;
+    width:20%;
+    text-align:right;
+    padding-left:20px;
 }
 
-.line {
-    width:1200px;
-    height:2px;
-    background-color:#000000;
-
+.body {
+    width:79%;
+    margin:auto;
+    border-left: 1px solid #000000;
+    padding:30px;
 }
+
+/** This is the Typography Section **/
 
 .headers {
     text-align: center;    
-    margin-top:70px;
+    font-family: 'Spartan', sans-serif;
 }
 
 
@@ -34,6 +73,7 @@ h1 {
     font-family: 'Spartan', sans-serif;
     font-weight:600;
     letter-spacing:.5em;
+    margin:auto;
 }
 
 h2 {
@@ -42,6 +82,7 @@ h2 {
     font-family: 'Spartan', sans-serif;
     font-weight:600;
     letter-spacing: .25em;
+    margin:auto;
 }
 
 h3 {
@@ -50,6 +91,7 @@ h3 {
     font-family: 'Spartan', sans-serif;
     font-weight:500;
     letter-spacing: .15em;
+    margin:auto;
 }
 
 h4 {
@@ -57,27 +99,74 @@ h4 {
     color:#000000;
     font-family: 'Maitree', serif;
     font-weight:400;
+    margin:auto;
+}
+
+h5 {
+    font-size:1.3em;
+    color:#FFFFFF;
+    font-family: 'Maitree', serif;
+    font-weight:500;
+    margin:auto;
+    background-color:#F1D692;
+}
+
+h6 {
+    font-family: 'Spartan', sans-serif;
+    color: #FFFFFF;
+    font-weight:400;
+    font-size:1em;
+    background-color:#C8AADA;
+    width:110px;
+    height:35px;
+    margin:auto;
+    text-align:center;
+    padding-top:8px;
 }
 
 p {
-    font-size:1.25em;
+    font-size:1.0em;
     color:#6D696F;
     font-family: 'Maitree', serif;
     font-weight:400;
+    margin:auto;
 }
+
+.head-margin {
+    margin-top:30px;
+    margin-bottom:5px;
+}
+
+h5.head-margin {
+    width:300px;
+}
+
+/** This is the Color Section **/
 
 .colors {
     display:flex;
     flex-direction: row;
-    justify-content: center;
+ 
 }
 
-
+.colors_column {
+    display:flex;
+    flex-direction:column;
+}
 
 .color_bar {
-    width:300px;
+    width:380px;
     height:100px;
-    margin-left:30px;
+    display:flex;
+    flex-direction:column;
+    margin-top:20px;   
+    align-self:center;
+}
+
+.color_name {
+    font-family: 'Maitree', serif;
+    text-align:center;
+    margin-top:5px;
 }
 
 .one {
@@ -85,19 +174,278 @@ p {
 }
 
 .two{
-    background-color:#F1D692;
+    background-color:#AB8DBD;
 }
 
 .three{
-    background-color:#FFFFFF;
-    border:1px solid #000000;
+    background-color:#C7BECC;
 
 }
 
 .four {
-    background-color:#000000;
+    background-color:#E6E3E8;
 }
 
 .five {
-    background-color:#6D696F;
+    background-color:#F1D692;
+}
+
+.six{
+    background-color:#FFFFFF;
+    border:1px solid #000000;
+}
+
+.seven{
+    background-color:#000000;
+}
+
+.eight {
+    background-color:#6d696f;
+}
+
+/** This is the Button Section **/
+
+.buttons {
+    width:65%;
+    margin:auto;
+    display:flex;
+    justify-content:space-around;
+    padding:40px;
+}
+
+button, .button {
+    width:110px;
+    height:30px;
+    border:none;
+    background-color:#C8AADA;
+    font-family: 'Spartan', sans-serif;
+    color: #FFFFFF;
+    font-weight:400;
+    font-size:1em;
+    text-align:center;
+}
+
+.button {
+    padding-top:5px;
+}
+.hover {
+    background-color:#AB8DBD;
+}
+
+.pressed {
+    background-color:#C7BECC;
+}
+
+button:hover {
+    background-color:#AB8DBD;
+}
+
+button:active {
+    background-color:#C7BECC;
+}
+
+button:focus {
+    background-color:#C7BECC;
+}
+
+/** This is the Icon Section **/
+
+.icon-img {
+    max-width:70px;
+    max-height:70px;
+}
+
+.icons {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding:40px;
+}
+
+/** This is the Contact Card Section **/
+
+.contact-row{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+.contact {
+    width:20%;
+    margin:20px;
+}
+
+.contact-img {
+    max-width:20px;
+    max-height:20px;
+}
+
+.contact-line {
+    width:240px;
+    height:4px;
+    background-color:#F1D692;
+}
+
+.contact-name, .phone-num, .email-add{
+    display:flex;
+    flex-direction:row;
+    margin:5px;
+}
+
+.phone-num>p {
+    margin-left:8px;
+}
+
+.email-add>p {
+    margin-left:8px;
+}
+
+/** This is the Hours Card Section **/
+
+.hours-card {
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.hours-line {
+    width:150px;
+    height:4px;
+    background-color:#F1D692;
+    align-self:center;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.main-num, .address {
+    text-align:center;
+}
+.main-hours {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.days{
+    width:50px;
+    text-align:right;
+    margin-right:3px;
+}
+
+.hours {
+    width:120px;
+    text-align:left;
+    margin:0px;
+}
+
+
+/** This is the Product Category Card Section **/
+
+ .gallery {
+     display:flex;
+     flex-direction:row;
+     justify-content:space-evenly;
+ }
+
+ .gallery-card {
+     position:relative;
+     width:30%;
+ }
+
+ .gallery-img {
+     max-width:300px;
+     max-height:300px;
+ }
+
+ .gallery-text {
+    position:absolute;
+    text-align:center;
+    top:130px;
+    background-color:#F1D692;
+    font-weight:500;
+ }
+
+ .try-hover:hover {
+     opacity:60%;
+ }
+
+ .gallery-descrip {
+    font-family: 'Maitree', serif;
+    text-align:center;
+    margin-top:5px;
+}
+
+.post-hover {
+    opacity:60%;
+}
+
+/** This is the Input and Text Area Section **/
+
+.input {
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left:25%;
+}
+
+.input-bar {
+    width:250px;
+    height:30px;
+    background-color:#E6E3E8;
+    margin-right:30px;
+    font-size:20px;
+    padding-left:8px;
+}
+
+.text-area {
+    width:530px;
+    height:90px;
+    background-color:#E6E3E8;
+    padding-left:8px;
+    margin-bottom:30px;
+}
+
+.form-input {
+    margin-bottom:30px;
+    align-self:center;
+}
+
+.email-input {
+    display:flex;
+    flex-direction:row;
+    margin-top:30px;
+    align-self:center;
+}
+
+.email-bar {
+    width:250px;
+    height:30px;
+    background-color:#E6E3E8;
+    margin-right:10px;
+    font-size:20px;
+    padding-left:8px;
+}
+
+
+/** This is the General Form Section **/
+
+.general-form {
+    display:flex;
+    flex-direction:column;
+    margin-left:25%;
+}
+
+.form-row {
+    display:flex;
+    flex-direction:row;
+    width:280px;
+}
+
+/** This is the General Form Section **/
+
+.special-form {
+    display:flex;
+    flex-direction:column;
+    margin-left:25%;
 }
